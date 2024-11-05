@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Bonita</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1rem;
+            font-weight: 300;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main h2 {
+            font-size: 2rem;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        main p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            max-width: 600px;
+        }
+
+        .button {
+            margin-top: 20px;
+            padding: 12px 24px;
+            font-size: 1rem;
+            font-weight: 700;
+            color: #2575fc;
+            background-color: #fff;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .button:hover {
+            background-color: #e6e6e6;
+        }
+
+        footer {
+            background-color: rgba(255, 255, 255, 0.1);
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            main h2 {
+                font-size: 1.7rem;
+            }
+
+            .button {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Página Bonita</h1>
+        <p>Experimente um design minimalista e elegante</p>
+    </header>
+
+    <main>
+        <div>
+            <h2>Explore o Conteúdo</h2>
+            <p>Esta é uma página inicial simples, mas visualmente atraente, feita com HTML e CSS. Pode ser usada como ponto de partida para qualquer projeto.</p>
+            <button class="button">Saiba Mais</button>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 Página Bonita. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
